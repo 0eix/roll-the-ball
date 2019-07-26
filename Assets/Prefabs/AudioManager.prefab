@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8788160829768717659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8788160829768717657}
+  - component: {fileID: 8788160829768717658}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8788160829768717657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788160829768717659}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2592213, y: 2.6065426, z: 1.3937291}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8788160829768717658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788160829768717659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50f8060558abe4c5b8132dad6862989c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sounds:
+  - _clip: {fileID: 8300000, guid: d44e23b1ebf124f50ae1948638cb8237, type: 3}
+    _name: PickUpStar
+    _volume: 1
+    _pitch: 1
+    _loop: 0
+    source: {fileID: 0}
+  - _clip: {fileID: 8300000, guid: 2c3da9be37d5447d0b6c85852dc80198, type: 3}
+    _name: Goal
+    _volume: 0.587
+    _pitch: 1
+    _loop: 0
+    source: {fileID: 0}
+  - _clip: {fileID: 8300000, guid: 5f7976129807f47338f886d07be54193, type: 3}
+    _name: PickUpReverse
+    _volume: 0.587
+    _pitch: 1
+    _loop: 0
+    source: {fileID: 0}
+  - _clip: {fileID: 8300000, guid: 210c130c4399749a1885043194ce73da, type: 3}
+    _name: Loose
+    _volume: 0.587
+    _pitch: 1
+    _loop: 0
+    source: {fileID: 0}
+  - _clip: {fileID: 8300000, guid: 37ea6f4c958964102a411e94d7fc4f9f, type: 3}
+    _name: Theme
+    _volume: 0.587
+    _pitch: 1
+    _loop: 1
+    source: {fileID: 0}
